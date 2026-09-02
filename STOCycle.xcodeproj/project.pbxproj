@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A3F0402579D4608BE50A09E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B978456FE6745E41C67C0DEF /* Theme.swift */; };
+		1E206746CEA7CE4904C464FF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04221E27FB9DF9466BB9A7EE /* HomeView.swift */; };
+		34DA0317422E64FD4F9EE5C2 /* CycleCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2967E7134E9290732C8283F7 /* CycleCalendarView.swift */; };
+		4201BBE41611450F5E39CD49 /* DailyLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9451336D69C157A25D4CC1 /* DailyLogView.swift */; };
+		47A22B8844191E157FA2192B /* CycleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803675DEBDDAF73B2F1EB046 /* CycleEngine.swift */; };
+		4D833DDFF6A3763CF298E242 /* CycleStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8A54A9C1925AF1BB2ACF1A /* CycleStore.swift */; };
+		4D89DA89F990FD68412F7BAB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863169D791E89F4D2BC24E9B /* SettingsView.swift */; };
+		5B241D5D60120031C44A797D /* STOCycleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0A0221A594C91A38D9E124 /* STOCycleApp.swift */; };
+		71D3CE40C88EA8D4A36EAA89 /* CycleModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9943713BB050C14DE996A9A6 /* CycleModels.swift */; };
+		8912E58D4790420B8476270D /* STOComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72E6CEA82508C193EE7634D4 /* STOComponents.swift */; };
+		8D81572EBF2FD101CAC3E89A /* CycleStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4701327D1913A1442882C0A0 /* CycleStoreTests.swift */; };
+		936A4A25E312E685698B3278 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A6C582D032024C2E71DF9B /* MainTabView.swift */; };
+		B98D2FDBAE3BC6FEC4D47953 /* AppContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1891E14FAA12AFB8BA3736F /* AppContainerView.swift */; };
+		C41463C68D9FCA11C8BE945E /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAAFB33F2EE4EE2A76FF8C4 /* InsightsView.swift */; };
+		CCB8E47961812B0738A3419D /* CycleEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BF35D0894D3F805FDE049E /* CycleEngineTests.swift */; };
+		D2C15FB1166F4678540D6933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE3F8F46D35EAD31991D130 /* Assets.xcassets */; };
+		DCEC88FE574F1D778AF30A1A /* STOCycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF6649A7436212F853E24506 /* STOCycleUITests.swift */; };
+		E00FF0A391196438E35A0B0E /* ReminderScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 363E5BD162CDF99BE2EE7538 /* ReminderScheduler.swift */; };
+		F45D0F634AC60ABF37922846 /* AppIcon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0C0BCBD5F7DAD3043B51B2B3 /* AppIcon.svg */; };
+		F8A09A3A6C5A93D9CC85DFD6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E457FD901F4E014D2FD529FE /* OnboardingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B90FB2E1B6AA2AA3809BB05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90D6B108115BA411EA913DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02AFE2A5A07498579639CE85;
+			remoteInfo = STOCycle;
+		};
+		E3396A81843F352E024ABA6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90D6B108115BA411EA913DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02AFE2A5A07498579639CE85;
+			remoteInfo = STOCycle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04221E27FB9DF9466BB9A7EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0C0BCBD5F7DAD3043B51B2B3 /* AppIcon.svg */ = {isa = PBXFileReference; path = AppIcon.svg; sourceTree = "<group>"; };
+		1D8A54A9C1925AF1BB2ACF1A /* CycleStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleStore.swift; sourceTree = "<group>"; };
+		2967E7134E9290732C8283F7 /* CycleCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleCalendarView.swift; sourceTree = "<group>"; };
+		363E5BD162CDF99BE2EE7538 /* ReminderScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderScheduler.swift; sourceTree = "<group>"; };
+		4701327D1913A1442882C0A0 /* CycleStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleStoreTests.swift; sourceTree = "<group>"; };
+		68CDBEC5A929AC6D1F397458 /* STOCycleUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = STOCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAAFB33F2EE4EE2A76FF8C4 /* InsightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsView.swift; sourceTree = "<group>"; };
+		72E6CEA82508C193EE7634D4 /* STOComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STOComponents.swift; sourceTree = "<group>"; };
+		7A0A0221A594C91A38D9E124 /* STOCycleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STOCycleApp.swift; sourceTree = "<group>"; };
+		803675DEBDDAF73B2F1EB046 /* CycleEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleEngine.swift; sourceTree = "<group>"; };
+		863169D791E89F4D2BC24E9B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9943713BB050C14DE996A9A6 /* CycleModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleModels.swift; sourceTree = "<group>"; };
+		AB9451336D69C157A25D4CC1 /* DailyLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyLogView.swift; sourceTree = "<group>"; };
+		B978456FE6745E41C67C0DEF /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		C4A6C582D032024C2E71DF9B /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C7B069C27768C43A96449A3A /* STOCycleTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = STOCycleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BF35D0894D3F805FDE049E /* CycleEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CycleEngineTests.swift; sourceTree = "<group>"; };
+		D1891E14FAA12AFB8BA3736F /* AppContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerView.swift; sourceTree = "<group>"; };
+		D2556083F36FB14AAB125006 /* STOCycle.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = STOCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E457FD901F4E014D2FD529FE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		EF6649A7436212F853E24506 /* STOCycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STOCycleUITests.swift; sourceTree = "<group>"; };
+		FDE3F8F46D35EAD31991D130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		14EF8AFA663270320FF4567A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				2AC9D427B72950F034F2D98E /* Calendar */,
+				2C05BE108B6D772C2DE8596C /* Home */,
+				FD830ADC334A105197B3FC6C /* Insights */,
+				4C1412E34FD87E38584E11A5 /* Logging */,
+				3A5DCA999DCE3206F54668BD /* Onboarding */,
+				A4D4CC67304B936AF2C17A5A /* Settings */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		2AC9D427B72950F034F2D98E /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2967E7134E9290732C8283F7 /* CycleCalendarView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		2C05BE108B6D772C2DE8596C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				04221E27FB9DF9466BB9A7EE /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3A5DCA999DCE3206F54668BD /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E457FD901F4E014D2FD529FE /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		3D7442D65052AEA601817E40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C0BCBD5F7DAD3043B51B2B3 /* AppIcon.svg */,
+				FDE3F8F46D35EAD31991D130 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C1412E34FD87E38584E11A5 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				AB9451336D69C157A25D4CC1 /* DailyLogView.swift */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		4CB1B7BC3334283F12BEF800 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9943713BB050C14DE996A9A6 /* CycleModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5943592AE37BE7A34EEDD051 = {
+			isa = PBXGroup;
+			children = (
+				B1C367A10B88E7AFE0A0EA67 /* STOCycle */,
+				7D66B2D9BB4D7DE9C857963D /* STOCycleTests */,
+				996903009D44E6BA458F9C11 /* STOCycleUITests */,
+				8AFD9E82F6ADA0FE83F4281C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABD9A8A889442C5F71C3D0F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				72E6CEA82508C193EE7634D4 /* STOComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7D66B2D9BB4D7DE9C857963D /* STOCycleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7BF35D0894D3F805FDE049E /* CycleEngineTests.swift */,
+				4701327D1913A1442882C0A0 /* CycleStoreTests.swift */,
+			);
+			path = STOCycleTests;
+			sourceTree = "<group>";
+		};
+		8AFD9E82F6ADA0FE83F4281C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2556083F36FB14AAB125006 /* STOCycle.app */,
+				C7B069C27768C43A96449A3A /* STOCycleTests.xctest */,
+				68CDBEC5A929AC6D1F397458 /* STOCycleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		996903009D44E6BA458F9C11 /* STOCycleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6649A7436212F853E24506 /* STOCycleUITests.swift */,
+			);
+			path = STOCycleUITests;
+			sourceTree = "<group>";
+		};
+		A4D4CC67304B936AF2C17A5A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				863169D791E89F4D2BC24E9B /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B1C367A10B88E7AFE0A0EA67 /* STOCycle */ = {
+			isa = PBXGroup;
+			children = (
+				F9464FFE0635F3B90FDE2B4F /* App */,
+				6ABD9A8A889442C5F71C3D0F /* Components */,
+				B8DE5C59920B3559C5C629E5 /* Design */,
+				14EF8AFA663270320FF4567A /* Features */,
+				4CB1B7BC3334283F12BEF800 /* Models */,
+				3D7442D65052AEA601817E40 /* Resources */,
+				BE3FB8B51770278A1B94448D /* Services */,
+			);
+			path = STOCycle;
+			sourceTree = "<group>";
+		};
+		B8DE5C59920B3559C5C629E5 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				B978456FE6745E41C67C0DEF /* Theme.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		BE3FB8B51770278A1B94448D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				803675DEBDDAF73B2F1EB046 /* CycleEngine.swift */,
+				1D8A54A9C1925AF1BB2ACF1A /* CycleStore.swift */,
+				363E5BD162CDF99BE2EE7538 /* ReminderScheduler.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F9464FFE0635F3B90FDE2B4F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D1891E14FAA12AFB8BA3736F /* AppContainerView.swift */,
+				C4A6C582D032024C2E71DF9B /* MainTabView.swift */,
+				7A0A0221A594C91A38D9E124 /* STOCycleApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD830ADC334A105197B3FC6C /* Insights */ = {
+			isa = PBXGroup;
+			children = (
+				6AAAFB33F2EE4EE2A76FF8C4 /* InsightsView.swift */,
+			);
+			path = Insights;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02AFE2A5A07498579639CE85 /* STOCycle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D3DF540CCE67FCF3FD1951E /* Build configuration list for PBXNativeTarget "STOCycle" */;
+			buildPhases = (
+				E4285D64579277D570EC6798 /* Sources */,
+				A5C46955F8C62C34977011D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STOCycle;
+			packageProductDependencies = (
+			);
+			productName = STOCycle;
+			productReference = D2556083F36FB14AAB125006 /* STOCycle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E13107D125FAF423DC88051E /* STOCycleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4FF7BBD2D07AEF1A9176AD /* Build configuration list for PBXNativeTarget "STOCycleTests" */;
+			buildPhases = (
+				F92369119864541E91B4CB0D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48E8F9BACD55B0A55D165379 /* PBXTargetDependency */,
+			);
+			name = STOCycleTests;
+			packageProductDependencies = (
+			);
+			productName = STOCycleTests;
+			productReference = C7B069C27768C43A96449A3A /* STOCycleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F17931FC6DA89297E9921AC8 /* STOCycleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34743DC1E2AB1E1EA7AAE12 /* Build configuration list for PBXNativeTarget "STOCycleUITests" */;
+			buildPhases = (
+				48215D1636F8D7AD6874F3C7 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				808ADC803AC79216AD409E73 /* PBXTargetDependency */,
+			);
+			name = STOCycleUITests;
+			packageProductDependencies = (
+			);
+			productName = STOCycleUITests;
+			productReference = 68CDBEC5A929AC6D1F397458 /* STOCycleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90D6B108115BA411EA913DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					02AFE2A5A07498579639CE85 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					E13107D125FAF423DC88051E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					F17931FC6DA89297E9921AC8 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 02AFE2A5A07498579639CE85;
+					};
+				};
+			};
+			buildConfigurationList = 37627779442BC6012127AEC1 /* Build configuration list for PBXProject "STOCycle" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 5943592AE37BE7A34EEDD051;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02AFE2A5A07498579639CE85 /* STOCycle */,
+				E13107D125FAF423DC88051E /* STOCycleTests */,
+				F17931FC6DA89297E9921AC8 /* STOCycleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5C46955F8C62C34977011D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45D0F634AC60ABF37922846 /* AppIcon.svg in Resources */,
+				D2C15FB1166F4678540D6933 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48215D1636F8D7AD6874F3C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCEC88FE574F1D778AF30A1A /* STOCycleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4285D64579277D570EC6798 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98D2FDBAE3BC6FEC4D47953 /* AppContainerView.swift in Sources */,
+				34DA0317422E64FD4F9EE5C2 /* CycleCalendarView.swift in Sources */,
+				47A22B8844191E157FA2192B /* CycleEngine.swift in Sources */,
+				71D3CE40C88EA8D4A36EAA89 /* CycleModels.swift in Sources */,
+				4D833DDFF6A3763CF298E242 /* CycleStore.swift in Sources */,
+				4201BBE41611450F5E39CD49 /* DailyLogView.swift in Sources */,
+				1E206746CEA7CE4904C464FF /* HomeView.swift in Sources */,
+				C41463C68D9FCA11C8BE945E /* InsightsView.swift in Sources */,
+				936A4A25E312E685698B3278 /* MainTabView.swift in Sources */,
+				F8A09A3A6C5A93D9CC85DFD6 /* OnboardingView.swift in Sources */,
+				E00FF0A391196438E35A0B0E /* ReminderScheduler.swift in Sources */,
+				8912E58D4790420B8476270D /* STOComponents.swift in Sources */,
+				5B241D5D60120031C44A797D /* STOCycleApp.swift in Sources */,
+				4D89DA89F990FD68412F7BAB /* SettingsView.swift in Sources */,
+				0A3F0402579D4608BE50A09E /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F92369119864541E91B4CB0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB8E47961812B0738A3419D /* CycleEngineTests.swift in Sources */,
+				8D81572EBF2FD101CAC3E89A /* CycleStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48E8F9BACD55B0A55D165379 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02AFE2A5A07498579639CE85 /* STOCycle */;
+			targetProxy = E3396A81843F352E024ABA6D /* PBXContainerItemProxy */;
+		};
+		808ADC803AC79216AD409E73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02AFE2A5A07498579639CE85 /* STOCycle */;
+			targetProxy = B90FB2E1B6AA2AA3809BB05B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1356A9335FF70DA25370EB6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.stostore.cycle.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STOCycle.app/STOCycle";
+			};
+			name = Debug;
+		};
+		1419600CFA0DB4E6E638DD47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.stostore.cycle.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STOCycle;
+			};
+			name = Release;
+		};
+		1FB4F8CB60BD6AAC229F2BA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		312101FBBD889DA001CD88BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5AC18B9ECF157D51F253906B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "STÖ Cycle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.stostore.cycle;
+				PRODUCT_NAME = STOCycle;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A713324C1C1D9E0D3F6B6E59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.stostore.cycle.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STOCycle.app/STOCycle";
+			};
+			name = Release;
+		};
+		D7EA483BC897FB7B3373AAB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "STÖ Cycle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.stostore.cycle;
+				PRODUCT_NAME = STOCycle;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E81DCBADDAB6CB812E62339B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = no.stostore.cycle.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = STOCycle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37627779442BC6012127AEC1 /* Build configuration list for PBXProject "STOCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FB4F8CB60BD6AAC229F2BA8 /* Debug */,
+				312101FBBD889DA001CD88BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D3DF540CCE67FCF3FD1951E /* Build configuration list for PBXNativeTarget "STOCycle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AC18B9ECF157D51F253906B /* Debug */,
+				D7EA483BC897FB7B3373AAB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D34743DC1E2AB1E1EA7AAE12 /* Build configuration list for PBXNativeTarget "STOCycleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81DCBADDAB6CB812E62339B /* Debug */,
+				1419600CFA0DB4E6E638DD47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC4FF7BBD2D07AEF1A9176AD /* Build configuration list for PBXNativeTarget "STOCycleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1356A9335FF70DA25370EB6C /* Debug */,
+				A713324C1C1D9E0D3F6B6E59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90D6B108115BA411EA913DB /* Project object */;
+}
